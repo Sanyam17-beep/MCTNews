@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(59, 52, 196);
+    padding: .7rem;
+}
+.navbar .links{
+    display: flex;
+}
+.links li{
+    list-style: none;
+    margin: 0 .5rem;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}

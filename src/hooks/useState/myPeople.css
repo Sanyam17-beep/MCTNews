@@ -1,0 +1,38 @@
+.people{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.myPeople{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: .7rem;
+    padding: 0 .7rem;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin: .5rem 0;
+}
+.content{
+    display: flex;
+}
+.content .age{
+    margin-left: 30px;
+}
+.clearBtn{
+    background-color: blueviolet;
+    padding: .4rem 1rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: .6rem;
+}
+.removeBtn{
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: .6rem;
+    height: 30px;
+}
